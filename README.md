@@ -74,6 +74,9 @@ The following can be found in the ``config_shared.lua`` file.
     }
 ```
 
+## Preview
+[Youtube](https://youtu.be/Cp_kOtKJOjc)
+
 ## Download
 https://github.com/HappyPunch/hp-orders
 
