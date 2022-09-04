@@ -90,7 +90,7 @@ https://github.com/HappyPunch/hp-orders
 
 [Ox_Libary](https://forum.cfx.re/t/free-ox-library-ui-and-lua-modules/4853434)
 
-[ND_Core](https://github.com/Andyyy7666/ND_Framework)
+[ND_Framework](https://github.com/Andyyy7666/ND_Framework)
 
 ## Errors or Suggestions?
 Please message me on discord if you come across any errors when using this resource or if you would like to make a suggestion.
