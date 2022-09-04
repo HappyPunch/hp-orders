@@ -10,11 +10,18 @@ function pay(source, amount, players, target, paymentType)
     local money = players[source].bank
     if paymentType == "cash" then
         money = players[source].cash
+        if money >= amount then
+            NDCore.Functions.DeductMoney(amount, source, "cash")
+            NDCore.Functions.AddMoney(amount, target, "cash")
+            return true
+        end
     end
-    if money >= amount then
-        NDCore.Functions.DeductMoney(amount, source, "cash")
-        NDCore.Functions.AddMoney(amount, target, "cash")
-        return true
+    if paymentType == "card" then
+        if money >= amount then
+            NDCore.Functions.DeductMoney(amount, source, "bank")
+            NDCore.Functions.AddMoney(amount, target, "bank")
+            return true
+        end
     end
     return false
 end
