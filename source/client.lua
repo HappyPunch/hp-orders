@@ -86,7 +86,6 @@ CreateThread(function()
                     wait = 0
                     drawText3D(menu.coords, menu.text)
                     if IsControlPressed(0, 51) then
-                        -- local input = lib.inputDialog("Create an order", {"Customer ID", "Price", "Order"})
                         local input = lib.inputDialog("Create an order", {
                             {type = "number", label = "Player ID", default = 0},
                             {type = "number", label = "Price", default = 0},
