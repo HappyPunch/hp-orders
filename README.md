@@ -88,7 +88,7 @@ https://github.com/HappyPunch/hp-orders
 
 ## Dependencies
 
-[Ox_Libary](https://forum.cfx.re/t/free-ox-library-ui-and-lua-modules/4853434)
+[Ox_Library](https://forum.cfx.re/t/free-ox-library-ui-and-lua-modules/4853434)
 
 [ND_Framework](https://github.com/Andyyy7666/ND_Framework)
 
